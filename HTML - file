@@ -1,0 +1,130 @@
+<html>
+
+<h1>The little blog of A...</h1>
+
+  
+   
+<header class="container">
+    <div class="row">
+      <ul class="col-sm-8">
+        <li class="col-sm-1"><a href= "https://twitter.com/littleblogofa"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png"></a></li>
+
+        <li class="col-sm-1"><a href="https://www.facebook.com/fina.alexandra"><img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a></li>
+        <li class="col-sm-1"><a href="https://www.instagram.com/thelittleblogofa/"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/instagram-logo-preview-400x400.png"></a></li>
+       
+      </ul> 
+  </div>
+      </header>
+    
+  
+  
+  
+  
+  
+  <div><h1 class="h1purple">Photos...</h1></div>
+  
+  
+<div id="notecards">
+  <div class="notecard">
+      <div class="front">
+        <span class="word">Wonderful<br> cloudy<br> London...</span>
+      
+    </div>
+    <div class="back">
+      <div class="definition">
+        Thames river...<br>
+      >Many<br> stories to<br> be heard...
+        <a href="https://thelittleblogofa.com"><div class="photo">
+          
+          </div></a>
+      </div>
+    </div>
+  </div>
+ 
+   <div class="notecard2">
+    <div class="front2">
+      <span class="word">Orange containers <br>on Thames...</span>
+    </div>
+    <div class="back2">
+      <div class="definition2">
+        Sunny day on Thames...
+     <br>>Very <br>bright <br> colours...
+          <a href="https://thelittleblogofa.com"><div class="photo2">
+          
+          </div></a>
+          </div>
+    </div>
+  </div>
+  
+  
+    
+     <div class="notecard3">
+      <div class="front3">
+        <span class="word">Some small<br> ducks...</span>
+      
+    </div>
+    <div class="back3">
+      <div class="definition3">
+        Relax at the park...<br>
+        >Wild<br>happy<br>birds...
+        <a href="https://thelittleblogofa.com"><div class="photo3">
+          
+          </div></a>
+      </div>
+    </div>
+  </div>
+ 
+   <div class="notecard4">
+    <div class="front4">
+      <span class="word">The Past<br> in<br> the present...</span>
+    </div>
+    <div class="back4">
+      <div class="definition4">
+        Reinvent the past...
+     <br>>Beautiful<br>old colours...
+          <a href="https://thelittleblogofa.com"><div class="photo4">
+          
+          </div></a>
+          </div>
+     </div>
+     
+  </div>
+  <div>
+  
+  <div id="myDiv">
+    <h1 class="h1purple">Photo generator...<br></h1>
+  <img id="myImage" src="https://unnoticeddotblog.files.wordpress.com/2017/04/img_3525-2.jpg?w=2000&h=1500&crop=1">
+</div>
+<br>
+<input type="button" onclick="randomImg()" value="Click here for a new photo" id="myImage">
+  </div>
+  
+  <body>
+
+    <h3>Send e-mail to <a href="mailto:thelittleblogofa@gmail.com">The little blog of A</a></h3>
+
+    </body>
+  
+  
+ 
+<footer class="container">
+    <div class="row">
+      <p class="col-sm-4">
+        &copy; 2017 Thelittleblogofa
+      </p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1"><a href= "https://twitter.com/littleblogofa"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png"></a></li>
+
+        <li class="col-sm-1"><a href="https://www.facebook.com/fina.alexandra"><img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a></li>
+        <li class="col-sm-1"><a href="https://www.instagram.com/thelittleblogofa/"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/instagram-logo-preview-400x400.png"></a></li>
+       
+      </ul> 
+  </div>
+      </footer>
+    
+</html>
+  
+  
+  
+ 
+  
