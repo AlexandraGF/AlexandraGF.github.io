@@ -1,0 +1,488 @@
+.notecards {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: Calibri;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+}
+
+.h1purple {
+  text-align: center;
+  font-family: Calibri;
+  font-style: italic;
+  font-weight: bold;
+  color: purple;
+}
+
+
+
+header {
+  font-size: 12px;
+  padding: 20px 0;
+ 
+}
+
+header .col-sm-8 {
+  display: flex;
+  justify-content: center;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li img {
+  width: 28px;
+  height: 28px;
+ padding: 23px;
+  margin: 0 auto;
+}
+
+
+
+.notecard {
+  width: 300px;
+  height: 180px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 110px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.notecard:hover {
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+}
+
+.notecard .front, .notecard .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  
+ 
+  
+}
+
+.notecard, .front {
+  z-index: 3;
+  font-size: 20px;
+
+}
+
+
+  
+  .notecard .front {
+  background: url(https://pbs.twimg.com/media/C8CDpI0XUAE21r7.jpg);
+  background-size: cover;
+ 
+}
+
+
+
+.notecard .front .word:hover {
+  color: red;
+  
+}
+
+.notecard .back {
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+  
+  background-color: #13666F;
+  
+}
+
+.notecard .back .definition {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 28px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+.notecard .back .definition .photo {
+  width: 40%;
+  margin: 10px ;
+  content: url(https://pbs.twimg.com/media/C8CDpI0XUAE21r7.jpg);
+  img-src: "https://thelittleblogofa.com";
+  object-fit: cover;
+  width: 60%;
+  margin: -130px 120px;
+  border-radius: 20%;
+  
+  
+}
+
+
+
+.notecard2 {
+  width: 300px;
+  height: 180px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 110px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.notecard2:hover {
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+}
+
+.notecard2 .front2, .notecard2 .back2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  
+ 
+  
+}
+
+.notecard2, .front2 {
+  z-index: 3;
+  font-size: 20px;
+
+}
+
+ 
+  
+  .notecard2 .front2 {
+  background: url(https://pbs.twimg.com/media/DQIIBn9VwAAVaTc.jpg);
+  background-size: cover;
+ 
+}
+
+
+
+.notecard2 .front2 .word:hover {
+  color: red;
+  
+}
+
+.notecard2 .back2 {
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+  
+  background-color: #13666F;
+  
+}
+
+.notecard2 .back2 .definition2 {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 28px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+.notecard2 .back2 .definition2 .photo2 {
+  width: 40%;
+  margin: 10px ;
+  content: url(https://pbs.twimg.com/media/DQIIBn9VwAAVaTc.jpg);
+  img-src: "https://thelittleblogofa.com";
+  object-fit: cover;
+  width: 60%;
+  margin: -130px 120px;
+  border-radius: 20%;
+  
+  
+}
+
+
+
+
+.notecard3 {
+  width: 300px;
+  height: 180px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 110px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.notecard3:hover {
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+}
+
+.notecard3 .front3, .notecard3 .back3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  
+ 
+  
+}
+
+.notecard3, .front3 {
+  z-index: 3;
+  font-size: 20px;
+
+}
+ 
+  
+  .notecard3 .front3 {
+  background: url(https://pbs.twimg.com/media/DR-BIdKVwAAI7fh.jpg);
+  background-size: cover;
+ 
+}
+
+
+
+.notecard3 .front3 .word:hover {
+  color: red;
+  
+}
+
+.notecard3 .back3 {
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+  
+  background-color: #13666F;
+  
+}
+
+.notecard3 .back3 .definition3 {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 28px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+.notecard3 .back3 .definition3 .photo3 {
+  width: 40%;
+  margin: 10px ;
+  content: url(https://pbs.twimg.com/media/DR-BIdKVwAAI7fh.jpg);
+  img-src: "https://thelittleblogofa.com";
+  object-fit: cover;
+  width: 60%;
+  margin: -130px 120px;
+  border-radius: 20%;
+  
+  
+}
+
+
+
+.notecard4 {
+  width: 300px;
+  height: 180px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 110px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.notecard4:hover {
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+}
+
+.notecard4 .front4, .notecard4 .back4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  
+ 
+  
+}
+
+.notecard4, .front4 {
+  z-index: 3;
+  font-size: 20px;
+
+}
+
+ .word {
+  font-family: fantasy, cursive;
+  font-weight: bold;
+  font-size: 28px;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  left: 5%;
+  color: black;
+}
+  
+  .notecard4 .front4 {
+  background: url(https://pbs.twimg.com/media/C79MXN1XkAA1ywy.jpg:large);
+  background-size: cover;
+ 
+}
+
+
+
+.notecard4 .front4 .word:hover {
+  color: red;
+  
+}
+
+.notecard4 .back4 {
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+  
+  background-color: #13666F;
+  
+}
+
+.notecard4 .back4 .definition4 {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 28px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+.notecard4 .back4 .definition4 .photo4 {
+  width: 40%;
+  margin: 10px ;
+  content: url(https://pbs.twimg.com/media/C79MXN1XkAA1ywy.jpg:large);
+  img-src: "https://thelittleblogofa.com";
+  object-fit: cover;
+  width: 60%;
+  margin: -87px 120px;
+  border-radius: 20%;
+    
+}
+
+
+#myImage {
+  position: relative;
+  left: 15%;
+  width: 50%;
+  border: 5px solid black;
+}
+
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+ padding: 23px;
+}
+
+
