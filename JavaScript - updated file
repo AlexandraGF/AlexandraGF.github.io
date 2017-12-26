@@ -1,0 +1,8 @@
+window.randomImg = function() {
+    var myImage = new Array();
+    myImage[0] = "https://pbs.twimg.com/media/DR-BIdKVwAAI7fh.jpg";
+    myImage[1] = "https://pbs.twimg.com/media/C8CDpI0XUAE21r7.jpg";
+    myImage[2] = "https://pbs.twimg.com/media/C79MXN1XkAA1ywy.jpg:large";
+    var random = Math.floor(Math.random() * myImage.length);
+    document.getElementById("myImage").src = myImage[random];
+  }
